@@ -4,11 +4,27 @@
     box-sizing: border-box;
 }
 
-.container{
-    width: 100%;
+body{
+    background-color: #141922;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    width: calc(100vw - 250px);
+    margin-left: 250px;
     height: 100px;
-    background-color: lightblue;
-    position: relative;
+    background-color: #2828286b;
+    z-index: 30;
+    position: fixed;
+}
+
+
+.main-container{
+    width: calc(100% - 250px);
+    height: 1200px;
+    background-color: #141922;
+    margin-left: 250px;
+    padding-top: 120px;
 }
 
 #upgrade{
@@ -25,13 +41,6 @@
 }
 
 /* SONGS SECTION */
-.main-container{
-    width: calc(100% - 250px);
-    height: 1200px;
-    background-color: #141922;
-    position: absolute;
-    right: 0;
-}
 
 .selection{
     max-width: 800px;
@@ -63,6 +72,7 @@ p{
 }
 .container-recently{
     width: 100%;
+    padding: 25px;
 }
 
 .col-square{
@@ -73,7 +83,8 @@ p{
 }
 
 .container-release{
-    width: 33%;
+    width: 36%;
+    padding: 25px;
 }
 .col-two{
     width: calc(100% / 2 - 20px);
