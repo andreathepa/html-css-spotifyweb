@@ -35,7 +35,7 @@ header{
     padding: 15px;
     position: absolute;
     top: 25px;
-    right: 5px;
+    right: 30px;
     width: 280px;
     text-align: center;
 }
@@ -103,7 +103,7 @@ p{
 
 /* END SONGS SECTION */
 
-
+/* NAVBAR SECTION */
 .nav-container{
     width: 250px;
     height: 1200px;
@@ -114,6 +114,64 @@ p{
     z-index: 50;
 }
 
+.row-nav{
+    display: flex;
+    flex-direction: column;
+}
+
+.col-nav{
+    width: calc(100% / 2 - 20px);
+    margin: 10px;
+    height: 100px;
+    background-color: rgb(0, 26, 255); 
+}
+
+.nav-content{
+    width: 180px;
+    margin-left: 15px;
+    padding: 7px;
+    margin-top: 5px;
+}
+
+.logo{
+    height: 93px;
+}
+
+
+/* USER */
+
+#user{
+    position: absolute;
+    bottom: 120px;
+}
+
+.line-top{
+    margin-bottom: 2px;
+    margin-left: 15px;
+    padding: 7px;
+
+}
+
+#fatop{
+    font-size: 15px;
+}
+
+.line-down{
+    margin-top: 2px;
+    margin-left: 15px;
+    padding: 7px;
+
+}
+
+#fadown{
+    font-size: 28px;
+}
+
+hr{
+    width: 200px;
+    margin-left: 20px;
+}
+/* FOOTER */
 footer{
     position: relative;
 }
@@ -126,3 +184,34 @@ footer{
     position: fixed;
     bottom: 0px;
 }
+
+.row-foot{
+    display: flex;
+}
+
+.col-foot{
+    width: calc(100% / 3 - 20px);
+    margin: 10px;
+    height: 100px;
+    background-color: rgb(0, 255, 76);
+}
+
+.fa-solid{
+    font-size: 30px;
+}
+
+.fa-sharp{
+    font-size: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: #585858;
+}
+
+ul, li{
+    list-style-type: none;
+    line-height: 30px;
+}
+
+/* MEDIA QUERY */
