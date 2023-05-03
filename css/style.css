@@ -11,14 +11,6 @@
     position: relative;
 }
 
-.main-container{
-    width: 100%;
-    height: 800px;
-    background-color: #141922;
-    position: fixed;
-    z-index: 40;
-}
-
 #upgrade{
     text-decoration: none;
     color: white;
@@ -32,9 +24,78 @@
     text-align: center;
 }
 
+/* SONGS SECTION */
+.main-container{
+    width: calc(100% - 250px);
+    height: 1200px;
+    background-color: #141922;
+    position: absolute;
+    right: 0;
+}
+
+.selection{
+    max-width: 800px;
+    background-color: yellow;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-sel{
+    background-color: red;
+    height: 20px;
+    width: calc(100% /5 - 20px);
+    margin: 10px;
+    padding: 15px;
+}
+
+/* RECENTLY PLAYED SONGS */
+
+h3{
+    color: white;
+    font-size: 40px;
+}
+p{
+    color: grey;
+}
+.container-recently{
+    width: 100%;
+}
+
+.col-square{
+    width: calc(100% / 6 - 20px);
+    margin: 10px;
+    height: 200px;
+    background-color: purple;
+}
+
+.container-release{
+    width: 33%;
+}
+.col-two{
+    width: calc(100% / 2 - 20px);
+    margin: 10px;
+    height: 200px;
+    background-color: royalblue;
+}
+
+.col-circle{
+    border-radius: 50%;
+    width: calc(100% / 2 - 20px);
+    margin: 10px;
+    height: 200px;
+    background-color: royalblue;
+}
+
+/* END SONGS SECTION */
+
+
 .nav-container{
     width: 250px;
-    height: 900px;
+    height: 1200px;
     background-color: lightgreen;
     position: absolute;
     top: 0px;
