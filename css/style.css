@@ -215,3 +215,27 @@ ul, li{
 }
 
 /* MEDIA QUERY */
+
+/* BREAK POINTS */
+
+/* TABLET */
+
+@media screen and (min-width: 768px) {
+    
+}
+
+/* DESKTOP */
+
+@media screen and (min-width: 991px) {
+
+  
+     
+}
+
+/* LARGE DESKTOP */
+
+@media screen and (min-width: 1200px) {
+    .container{
+        max-width: 1140px;
+    }
+}
