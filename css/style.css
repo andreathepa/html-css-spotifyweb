@@ -47,8 +47,13 @@ main{
 .main-content{
     width: calc(100% - 150px);
     height: 100%;
-    background-color: grey;
+    background-color: #141922;
     padding-top: 125px;
+}
+
+.title-text{
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 .top-bar{
@@ -120,7 +125,7 @@ ul, li{
 
 }
 
-#fatop{
+.fatop{
     font-size: 15px;
 }
 
@@ -130,7 +135,7 @@ ul, li{
 
 }
 
-#fadown{
+.fadown{
     font-size: 28px;
 }
 
@@ -165,8 +170,7 @@ hr{
 /* SONGS SECTION */
 
 .container-selection{
-    max-width: 800px;
-    background-color: yellow;
+    max-width: 700px;
     margin: 0 auto;
 }
 
@@ -174,13 +178,21 @@ hr{
     display: flex;
 }
 
-.around{
+/* .around{
     justify-content: space-around;
+} */
+
+.center{
+    justify-content: space-between;
 }
 
 .col-sel{
-    background-color: red;
-    padding: 15px;
+    padding-left: 20px;
+    
+}
+
+.text-content{
+    color: grey;
 }
 
 /* END SONGS SECTION */
@@ -204,7 +216,14 @@ p{
     width: calc(100% / 6 - 20px);
     margin: 10px;
     height: 200px;
-    background-color: purple;
+}
+
+.album{
+    width: 100%;
+}
+
+.circle{
+    border-radius: 50%;
 }
 
 /* END RECENTLY PLAYED SONGS */
@@ -217,7 +236,6 @@ p{
     width: calc(33% / 2 - 20px);
     margin: 10px;
     height: 200px;
-    background-color: royalblue;
 }
 
 /* END CREATO PER JHON DOE */
@@ -259,22 +277,22 @@ p{
 @media screen and (max-width: 878px) {
 
     .container-selection {
-        max-width: 500px;
+        max-width: 600px;
     }
-    
-    .col-sel{
-        width: calc(100% /5 - 20px);
-        margin: 10px;
-        padding: 15px;
+
+
+    .center{
+        justify-content: center;
     }
+
     .container{
         width: 100%;
         padding: 25px;
     }
-    
-    .space{
+
+    /* .space{
         justify-content: space-around;
-    }
+    } */
     .wrap{
         flex-wrap: wrap;
     }
@@ -282,19 +300,17 @@ p{
         width: calc(100% / 4 - 20px);
         margin: 10px;
         height: 200px;
-        background-color: purple;
     }
-    
+
     .col-two, .col-circle{
         width: calc(50% / 2 - 20px);
         margin: 10px;
         height: 200px;
-        background-color: royalblue;
     }
 
     .col-circle{
         border-radius: 50%;
-        
+
     }
 
 }
@@ -305,23 +321,23 @@ p{
 
 @media screen and (max-width: 639px) {
     .container-selection {
-        max-width: 200px;
+        max-width: 400px;
     }
 
-   
-    
+
+
     .col-sel{
-        background-color: red;
+        /* background-color: red;
         height: 20px;
         width: calc(100% /3 - 20px);
-        margin: 10px;
+        margin: 10px; */
         padding: 15px;
     }
     .container{
         width: 100%;
         padding: 25px;
     }
-    
+
     .space{
         justify-content: flex-start;
     }
@@ -332,19 +348,17 @@ p{
         width: calc(100% / 2 - 20px);
         margin: 10px;
         height: 200px;
-        background-color: purple;
     }
 
     .col-two, .col-circle{
         width: calc(100% / 2 - 20px);
         margin: 10px;
         height: 200px;
-        background-color: royalblue;
     }
 
     .col-circle{
         border-radius: 50%;
-        
+
     }
 }
 
@@ -355,18 +369,13 @@ p{
         max-width: 400px;
     }
 
-    .space{
-        justify-content: space-around;
-    }
-
-   
     
     .col-sel{
-        background-color: red;
+        /* background-color: red;
         height: 20px;
         width: calc(100% /4 - 20px);
-        margin: 10px;
-        padding: 15px;
+        margin: 10px; */
+        padding: 5px;
     }
 
     .sidebar{
@@ -385,10 +394,9 @@ p{
     .main-content{
         width: calc(100% - 50px);
         height: 100%;
-        background-color: grey;
         padding-top: 125px;
     }
-    
+
     .top-bar{
         width: calc(100% - 50px);
         margin-left: 50px;
@@ -403,7 +411,7 @@ p{
         width: 100%;
         height: 85%;
     }
-    
+
     .bottom-sidebar-short{
         width: 100%;
         height: 15%;
@@ -414,24 +422,24 @@ p{
     .line-top{
         padding-top: 10px;
         margin-left: 10px;
-    
+
     }
-    
+
     /* #fatop{
         font-size: 15px;
     } */
-    
+
     .line-down{
         padding-top: 6px;
         margin-left: 4px;
-    
+
     }
-    
+
     /* #fadown{
         font-size: 28px;
     } */
 
-    
+
     .icon-short{
        padding-top: 15px;
        padding-left: 13px;
@@ -447,6 +455,6 @@ p{
     .fa-book{
         padding-left: 5px;
     }
-    
-    
+
+
 }
