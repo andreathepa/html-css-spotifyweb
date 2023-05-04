@@ -73,11 +73,65 @@ main{
 /* SIDE BAR SECTION */
 
 .logo-section, .icon-section, .playlist-section{
-    background-color: aqua;
     width: 100%;
-    height: 100px;
-    margin: 10px;
+    margin: 10px 10px 10px 10px;
 }
+
+.logo-section{
+    padding-top: 20px;
+}
+
+.icon-content, .playlist-content{
+    width: 180px;
+    padding: 7px;
+    margin-top: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: #585858;
+}
+
+#logo{
+    height: 40px;
+}
+
+ul, li{
+    list-style-type: none;
+    line-height: 30px;
+    overflow-y: auto;
+}
+
+.bottom-sidebar{
+    position: relative;
+    bottom: 0;
+}
+
+.line-top{
+    margin-bottom: 2px;
+    padding: 7px;
+
+}
+
+#fatop{
+    font-size: 15px;
+}
+
+.line-down{
+    margin-top: 2px;
+    padding: 7px;
+
+}
+
+#fadown{
+    font-size: 28px;
+}
+
+hr{
+    width: 135px;
+    margin-left: 5px;
+}
+
 
 /* END SIDE BAR SECTION */
 
