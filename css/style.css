@@ -286,7 +286,7 @@ p{
 
 
 .icon-right{
-    padding: 35px 18px;
+    padding: 35px 6px;
 }
 
 .flexend{
@@ -313,8 +313,8 @@ p{
     padding: 18px 9px;
 }
 
-.padding-left{
-    padding-left: 15px;
+.paddingleft{
+    padding-left: 35px;
 }
 
 .column{
@@ -324,8 +324,9 @@ p{
 
 .col-timeline-middle{
     background-color: yellow;
-    margin: 0 auto;
     padding-top: 20px;
+    display: flex;
+    justify-content: center;
     
 }
 
@@ -333,24 +334,17 @@ p{
     align-self: center;  
 }
 
-.right{
-    padding-left: 50px;
-}
 
 #timeline-center{
-    width: 500px;
+    width: 100%;
     height: 2px;
     background-color: red;
     display: inline-block;
 }
 
-/* .center{
-    padding-top: 10px;
+.col-timeline-right{
+    display: flex;
 }
-
-.margin{
-    padding-left: 10px;
-} */
 
 /* MEDIA QUERY */
 
