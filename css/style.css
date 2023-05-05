@@ -221,7 +221,6 @@ p{
 .col-square{
     width: calc(100% / 6 - 20px);
     margin: 10px;
-    height: 200px;
 }
 
 .album{
@@ -264,20 +263,29 @@ p{
 /* END BOTTOM BAR */
 .row-foot{
     display: flex;
+    justify-content: space-between;
 }
 
 .col-foot-middle{
-    width: calc(60% - 20px);
+    width: calc(40% - 20px);
     margin: 10px;
     height: 100px;
     background-color: rgba(20, 218, 79, 0.671);
 }
 
-.col-foot{
-    width: calc(40% / 2 - 20px);
+.col-foot-left{
+    width: calc(25% - 20px);
     margin: 10px;
     height: 100px;
     background-color: rgba(20, 218, 79, 0.671);
+}
+
+.col-foot-right{
+    width: calc(20% - 20px);
+    margin: 10px;
+    height: 100px;
+    background-color: rgba(20, 218, 79, 0.671);
+
 }
 
 #sinister-small{
@@ -286,7 +294,7 @@ p{
 
 
 .icon-right{
-    padding: 35px 6px;
+    padding: 35px 0px;
 }
 
 .flexend{
@@ -295,18 +303,32 @@ p{
 
 .line{
     border-top: 4px solid gray;
-    width: 93px;
+    width: 100%;
     position: relative;
     bottom: -40px;
 }
 
-.white{
+.line-white{
     border-top: 4px solid white;
-    width: 40px;
-    position: relative;
-    bottom: -40px;
-    right: 93px;
+    width: 20%;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
 }
+
+.line-middle{
+    border-top: 4px solid gray;
+    width: 100%;
+}
+
+.line-white-middle{
+    border-top: 4px solid white;
+    width: 20%;
+    position: relative;
+    bottom: 4px;
+    left: 0;
+}
+
 
 
 .col-timeline-left{
@@ -343,7 +365,15 @@ p{
 }
 
 .col-timeline-right{
-    display: flex;
+    margin: 0 2%;
+    text-align: center;
+    color: white;
+    font-size: 1vw;
+}
+
+.col-timeline-right:last-child{
+    flex-grow: 1;
+    position: relative;
 }
 
 /* MEDIA QUERY */
@@ -376,7 +406,6 @@ p{
     .col-square{
         width: calc(100% / 4 - 20px);
         margin: 10px;
-        height: 200px;
     }
 
     .col-two, .col-circle{
@@ -424,7 +453,6 @@ p{
     .col-square{
         width: calc(100% / 2 - 20px);
         margin: 10px;
-        height: 200px;
     }
 
     .col-two, .col-circle{
