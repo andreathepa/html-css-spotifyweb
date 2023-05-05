@@ -78,7 +78,7 @@ h4{
 
 .bottom-bar{
     width: 100%;
-    background-color: rgba(136, 255, 0, 0.418);
+    background-color: #282828;
     position: fixed;
     z-index: 50;
 }
@@ -310,9 +310,7 @@ p{
 
 
 .col-timeline-left{
-    width: 100%;
-    padding: 17px 32px;
-
+    padding: 18px 9px;
 }
 
 .padding-left{
@@ -329,6 +327,14 @@ p{
     margin: 0 auto;
     padding-top: 20px;
     
+}
+
+.align-self{
+    align-self: center;  
+}
+
+.right{
+    padding-left: 50px;
 }
 
 #timeline-center{
