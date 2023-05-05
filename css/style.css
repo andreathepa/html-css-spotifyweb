@@ -108,6 +108,8 @@ a{
     color: #585858;
 }
 
+
+
 #logo{
     height: 40px;
 }
@@ -170,6 +172,61 @@ hr{
     font-size: 15px;
 }
 
+.container-selection a:hover{
+    color: white;
+    text-decoration: underline 4px solid lightgreen;
+}
+
+a:hover{
+    color: white;
+}
+
+
+/* HOVERRRRR EFFECT */
+
+  
+  .album {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    backface-visibility: hidden;
+  }
+  
+ 
+  
+  .media-content:hover .album {
+    opacity: 0.3;
+  }
+  
+
+  .middle {
+  
+    opacity: 0;
+    position: relative;
+    top: 0px;
+    left: 210px;
+  }
+  
+  h5{
+    color: white;
+  }
+  
+  .media-content:hover .middle {
+    opacity: 1;
+  }
+  
+ 
+/* #plays{
+    width: 90px;
+}
+  .play {
+    color: white;
+    width: 1px;
+    font-size: 16px;
+    padding: 16px 32px;
+  } */
+
 /* END TOP BAR SECTION */
 
 
@@ -206,9 +263,6 @@ hr{
     
 }
 
-.text-content{
-    color: grey;
-}
 
 /* END SONGS SECTION */
 
