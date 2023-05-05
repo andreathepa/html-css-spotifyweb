@@ -267,7 +267,7 @@ p{
 }
 
 .col-foot-middle{
-    width: calc(40% - 20px);
+    width: calc(50% - 20px);
     margin: 10px;
     height: 100px;
     background-color: rgba(20, 218, 79, 0.671);
@@ -318,7 +318,8 @@ p{
 
 .line-middle{
     border-top: 4px solid gray;
-    width: 100%;
+    width: 70%;
+    margin: 0% 5%;
 }
 
 .line-white-middle{
@@ -336,7 +337,8 @@ p{
 }
 
 .paddingleft{
-    padding-left: 35px;
+    padding-left: 5%;
+    font-size: 1.5vw;
 }
 
 .column{
