@@ -18,6 +18,11 @@ main{
     display: flex;
 }
 
+h4{
+    font-size: 35px;
+    color: white;
+}
+
 
 .sidebar{
     width: 150px;
@@ -261,8 +266,15 @@ p{
     display: flex;
 }
 
+.col-foot-middle{
+    width: calc(60% - 20px);
+    margin: 10px;
+    height: 100px;
+    background-color: rgba(20, 218, 79, 0.671);
+}
+
 .col-foot{
-    width: calc(100% / 3 - 20px);
+    width: calc(40% / 2 - 20px);
     margin: 10px;
     height: 100px;
     background-color: rgba(20, 218, 79, 0.671);
