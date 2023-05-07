@@ -20,10 +20,10 @@
                     </div>
                     <div class="icon-section">
                         <div class="icon-content">
-                            <a href=""><i class="fa-solid fa-house fa-lg" style="color: #585858;"></i> Home</a>
+                            <a href=""><i class="fa-solid fa-house fa-lg"></i> Home</a>
                         </div>
                         <div class="icon-content">
-                            <a href=""><i class="fa-solid fa-magnifying-glass fa-lg" style="color: #585858;"></i> Cerca</a>
+                            <a href=""><i class="fa-solid fa-magnifying-glass fa-lg"></i> Cerca</a>
                         </div>
                         <div class="icon-content">
                             <a href=""><i class="fa-solid fa-book"></i> La tua libreria</a>
@@ -36,6 +36,10 @@
                             </div>
                             <div class="playlist-content list">
                                 <ul>
+                                    <li><a href="#">Nome Playlist</a></li>
+                                    <li><a href="#">Nome Playlist</a></li>
+                                    <li><a href="#">Nome Playlist</a></li>
+                                    <li><a href="#">Nome Playlist</a></li>
                                     <li><a href="#">Nome Playlist</a></li>
                                     <li><a href="#">Nome Playlist</a></li>
                                     <li><a href="#">Nome Playlist</a></li>
@@ -65,8 +69,8 @@
                 <div class="sidebar-short">
                     <div class="top-sidebar-short">
                         <div class="icon-short"><a href="#"><img src="./img/logo-small.svg" id="logo-short" alt=""></a></div>
-                        <div class="icon-short"><a href=""><i class="fa-solid fa-house fa-lg" style="color: #585858;"></i></a></div>
-                        <div class="icon-short"><a href=""><i class="fa-solid fa-magnifying-glass fa-lg" style="color: #585858;"></i></a></div>
+                        <div class="icon-short"><a href=""><i class="fa-solid fa-house fa-lg"></i></a></div>
+                        <div class="icon-short"><a href=""><i class="fa-solid fa-magnifying-glass fa-lg"></i></a></div>
                         <div class="icon-short"><a href=""><i class="fa-solid fa-book"></i></a></div>
                     </div>
 
@@ -92,7 +96,7 @@
                     <!-- SELECTION CONTENT -->
                     <div class="container-selection">
                         <div class="row wrap center between">
-                            <div class="col-sel"><a href=""><div class="text-content">IN EVIDENZA</div></a></div>
+                            <div class="col-sel"><a href="" class="line-green"><div class="text-content">IN EVIDENZA</div></a></div>
                             <div class="col-sel"><a href=""><div class="text-content">PODCAST</div></a></div>
                             <div class="col-sel"><a href=""><div class="text-content">CLASSIFICHE</div></a></div>
                             <div class="col-sel"><a href=""><div class="text-content">GENERE E MOOD</div></a></div>
@@ -109,13 +113,9 @@
                         <div class="row wrap">
                             <div class="col-square">
                                 <div class="media-content">
-                                    <a href="#">
+                                    <a href="#" class="play-hov">
                                         <img class="album" src="./img/metal_lifting.jpg" alt="">
-                                        <div class="middle">
-                                            <!-- <div class="play">
-                                                <img src="./img/Daco_776477.png" id="plays" alt="">
-                                            </div> -->
-                                        </div>
+                                        <i class="play-icon fa-solid fa-circle-play" style="color: #ffffff;"></i>
                                         <div class="text-media-content">
                                             <h4>Heavy Metal</h4>
                                             <p>Subtitle</p>
@@ -124,37 +124,53 @@
                             </div>
                             <div class="col-square">
                                 <div class="media-content">
-                                    <a href="#"><img class="album" src="./img/stranger.jpeg" alt="">    
-                                    <div class="text-media-content"><h4>Strangers Things Vol 1.</h4>
-                                    <p>Kyle Dixon & Michael Stain</p></div></a>
+                                    <a href="#" class="play-hov">
+                                        <img class="album" src="./img/stranger.jpeg" alt="">
+                                        <i class="play-icon fa-solid fa-circle-play" style="color: #ffffff;"></i>
+                                        <div class="text-media-content">
+                                            <h4>Strangers Things Vol 1.</h4>                                    
+                                            <p>Kyle Dixon & Michael Stain</p>
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
                             <div class="col-square">
                                 <div class="media-content">
-                                    <a href="#"><img class="album" src="./img/aquietplace.jpeg" alt=""> 
+                                    <a href="#" class="play-hov">
+                                        <img class="album" src="./img/aquietplace.jpeg" alt="">
+                                        <i class="play-icon fa-solid fa-circle-play" style="color: #ffffff;"></i>
                                     <div class="text-media-content"><h4>A quiet place</h4>
                                     <p>Subtitle</p></div></a>
                                  </div>
                             </div>
                             <div class="col-square">
                                 <div class="media-content">
-                                    <a href="#"><img class="album" src="./img/split.jpeg" alt="">       
+                                    <a href="#" class="play-hov">
+                                        <img class="album" src="./img/split.jpeg" alt="">  
+                                        <i class="play-icon fa-solid fa-circle-play" style="color: #ffffff;"></i>
                                     <div class="text-media-content"><h4>Split</h4>
                                     <p>Subtitle</p></div></a>
                                 </div>
                             </div>
                             <div class="col-square">
                                 <div class="media-content">
-                                    <a href="#"><img class="album" src="./img/cure.jpeg" alt="">        
+                                    <a href="#" class="play-hov">
+                                        <img class="album" src="./img/cure.jpeg" alt="">
+                                        <i class="play-icon fa-solid fa-circle-play" style="color: #ffffff;"></i>
                                     <div class="text-media-content"><h4>A cure for wellness</h4>
                                     <p>Subtitle</p></div></a>
                                 </div>
                             </div>
                             <div class="col-square">
                                 <div class="media-content">
-                                    <a href="#"><img class="album" src="./img/sinister.jpeg" alt="">    
-                                    <div class="text-media-content"><h4>Sinister</h4>
-                                    <p>Subtitle</p></div></a>
+                                    <a href="#" class="play-hov">
+                                        <img class="album" src="./img/sinister.jpeg" alt="">
+                                        <i class="play-icon fa-solid fa-circle-play" style="color: #ffffff;"></i>
+                                        <div class="text-media-content">
+                                            <h4>Sinister</h4>
+                                            <p>Subtitle</p>
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -169,8 +185,9 @@
                         <div class="row">
                             <div class="col-two">
                                 <div class="media-content">
-                                    <a href="#">
+                                    <a href="#" class="play-hov">
                                         <img class="album" src="./img/mixdaily.jpeg" alt="">
+                                        <i class="play-icon fa-solid fa-circle-play" style="color: #ffffff;"></i>
                                         <div class="text-media-content">
                                             <h4>Release radar</h4>
                                         </div>
@@ -179,8 +196,9 @@
                             </div>
                             <div class="col-two">
                                 <div class="media-content">
-                                    <a href="#">
+                                    <a href="#" class="play-hov">
                                         <img class="album" src="./img/radar.jpeg" alt="">
+                                        <i class="play-icon fa-solid fa-circle-play" style="color: #ffffff;"></i>
                                         <div class="text-media-content">
                                             <h4>Daily Mix 1</h4>
                                         </div>
@@ -199,8 +217,9 @@
                         <div class="row">
                             <div class="col-circle">
                                 <div class="media-content">
-                                    <a href="#">
+                                    <a href="#" class="play-hov">
                                         <img class="album circle" src="./img/einaudi.jpeg" alt="">
+                                        <i class="play-icon fa-solid fa-circle-play" style="color: #ffffff;"></i>
                                         <div class="text-media-content"> 
                                             <h4>Ludovico Enaudi</h4>
                                         </div>
@@ -209,8 +228,9 @@
                             </div>
                             <div class="col-circle">
                                 <div class="media-content">
-                                    <a href="#">
+                                    <a href="#" class="play-hov">
                                         <img class="album circle" src="./img/youg.jpeg" alt="">
+                                        <i class="play-icon fa-solid fa-circle-play" style="color: #ffffff;"></i>
                                         <div class="text-media-content"> 
                                             <h4>Lana Del Rey</h4>
                                         </div>
@@ -229,15 +249,23 @@
                 <div class="col-foot-left">
                     <div class="row">
                         <div class="col-timeline-left">
-                            <img src="./img/sinister.jpeg" id="sinister-small" alt="">
+                            <a href="#" class="play-hov">
+                                <img src="./img/sinister.jpeg" id="sinister-small" alt="">
+                            </a>
                         </div>
                         <div class="col-timeline-left align-self">
-                            <h5>Sinister</h5>
-                            <p>Brano Nome</p>
+                            <a href="#" class="play-hov"><h5 class="underl">Sinister</h5>
+                            <p class="underl">Brano Nome</p></a>
                         </div>
-                        <div class="col-timeline-left align-self right">
-                            <span class="center"><i class="fa-sharp fa-regular fa-heart" style="color: #616161;"></i></span>
-                            <span class="center"><i class="fa-regular fa-folder" style="color: #545454;"></i></span>
+                        <div class="col-timeline-left align-self right flexo">
+                            <a href="#" class="play-hov">
+                                <span class="center"><i class="heart-a fa-sharp fa-regular fa-heart" style="color: #616161;"></i></span>
+                                <span class="center"><i class="heart-b fa-sharp fa-solid fa-heart" style="color: #ffffff;"></i></span>
+                            </a>
+                            <a href="#" class="play-hov lefto">
+                                <span class="center"><i class="heart-a fa-regular fa-folder" style="color: #545454;"></i></span>
+                                <span class="center"><i class="heart-b fa-solid fa-folder" style="color: #ffffff;"></i></span>
+                            </a>
                         </div>
                     </div>
                     
@@ -245,16 +273,20 @@
                 <div class="col-foot-middle">
                     <div class="row column">
                         <div class="col-timeline-middle">
-                            <span class="paddingleft"><i class="fa-solid fa-shuffle" style="color: #ffffff;"></i></span>
-                            <span class="paddingleft"><i class="fa-solid fa-backward-step" style="color: #fffafa;"></i></span>
-                            <span class="paddingleft"><i class="fa-solid fa-play" style="color: #ffffff;"></i></span>
-                            <span class="paddingleft"><i class="fa-solid fa-forward-step" style="color: #ffffff;"></i></span>
-                            <span class="paddingleft"><i class="fa-solid fa-arrow-rotate-left" style="color: #ffffff;"></i></span>
+                            <span class="paddingleft"><a href="#" class="play-hov"><i class="simbol fa-solid fa-shuffle" style="color: #ffffff;"></i></a></span>
+                            <span class="paddingleft"><a href="#" class="play-hov"><i class="simbol fa-solid fa-backward-step" style="color: #fffafa;"></i></a></span>
+                            <span class="paddingleft"><a href="#" class="play-hov"><i class="simbol fa-solid fa-play" style="color: #ffffff;"></i></a></span>
+                            <span class="paddingleft"><a href="#" class="play-hov"><i class="simbol fa-solid fa-forward-step" style="color: #ffffff;"></i></a></span>
+                            <span class="paddingleft"><a href="#" class="play-hov"><i class="simbol fa-solid fa-arrow-rotate-left" style="color: #ffffff;"></i></i></span>
                         </div>
                         <div class="col-timeline-middle">
                             <span class="seconds">00.25</span>
                             <div class="line-middle align-self">
+                                <a href="" class="play-hov">
                                 <div class="line-white-middle"></div>
+                                <div class="line-white-green-middle"></div>
+                                <div class="ball-two"></div>
+                                </a>
                             </div>
                             <span class="seconds">02.27</span>
                         </div>
@@ -263,19 +295,28 @@
                 <div class="col-foot-right">
                     <div class="row">
                         <div class="col-timeline-right">
-                            <i class="icon-right fa-solid fa-bars" style="color: #ffffff;"></i>
+                            <a href="#" class="play-hov-time">
+                                <i class="bars-big icon-right fa-solid fa-bars"></i>
+                            </a>
                         </div>
                         <div class="col-timeline-right">
-                            <i class="icon-right fa-solid fa-display" style="color: #ffffff;"></i>
+                            <a href="#" class="play-hov-time">
+                                <i class="bars icon-right fa-solid fa-display"></i>
+                            </a>
                         </div>
                         <div class="col-timeline-right">
-                            <i class="icon-right fa-solid fa-volume-high" style="color: #ffffff;"></i>
+                            <a href="#" class="play-hov">
+                                <i class="icon-right fa-solid fa-volume-high"></i>
+                            </a>
                         </div>
                         <div class="col-timeline-right">
-                            <div class="line">
-                                <div class="line-white"></div>
-                            </div>
-                            
+                            <a href="#" class="play-hov">
+                                <div class="line">
+                                    <div class="line-white"></div>
+                                    <div class="line-white-green"></div>
+                                    <div class="ball"></div>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
